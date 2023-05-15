@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Meme Generator</title>
+    <link rel="stylesheet" href="app.css"/>
+    
+</head>
+
+<body>
+     
+   <div class="meme-generator">
+     <p style="text-align:right">
+  <h2>"Create A Meme" Challenge!</h2>
+
+</p>
+    <label>Select an Image</label>
+        <input type="file"  id="imageFileInput" placeholder="Enter the Meme Image URL here!">
+    <label>Top Text</label>
+        <input type="text"  id="topTextInput" placeholder="Enter text for the top of your Meme!">
+   <label>Bottom Text</label>
+        <input type="text"  id="bottomTextInput" placeholder="Enter text for the Bottom of your Meme!">
+    <button class="meme-generator-Btn" type="Button">Create Meme</button>
+   <canvas id="meme"></canvas>
+
+ <script src="script.js"></script>   
+</body>
+</html>
